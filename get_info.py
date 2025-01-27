@@ -1,7 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 
-url = "http://192.168.1.100/xml/zone/getChanges.xml?visuid=90&now"
+url = "http://192.168.1.8/xml/zone/getChanges.xml?visuid=90&now"
 
 response = requests.get(url)
 
